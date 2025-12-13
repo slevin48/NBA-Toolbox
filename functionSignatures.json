@@ -1,0 +1,20 @@
+{
+  "functions": [
+    {
+      "name": "nba.getPlayerStats",
+      "inputs": [
+        {"name": "playerId", "kind": "required"},
+        {"name": "season", "kind": "required"},
+        {"name": "perMode", "kind": "optional"}
+      ]
+    },
+    {
+      "name": "nba.getTeamStats",
+      "inputs": [
+        {"name": "teamId", "kind": "required"},
+        {"name": "season", "kind": "required"},
+        {"name": "perMode", "kind": "optional"}
+      ]
+    }
+  ]
+}
