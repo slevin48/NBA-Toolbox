@@ -2,7 +2,7 @@
 
 MATLAB utilities for pulling NBA statistics from stats.nba.com. The toolbox provides simple entry points for player and team data, argument validation, and tab completion support.
 
-![Open in MATLAB Online](https://www.mathworks.com/products/matlab-online.html)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=slevin48/NBA-Toolbox)
 
 ## Installation
 1. Clone or download this repository.

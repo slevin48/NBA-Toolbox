@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project description="NBA Toolbox project for packaging" name="NBA-Toolbox" type="toolbox">
-    <param.appname>NBA Toolbox</param.appname>
-    <param.summary>Lightweight client for stats.nba.com endpoints</param.summary>
-    <param.version>1.0.0</param.version>
-    <param.outputfile>release/NBA-Toolbox.mltbx</param.outputfile>
-    <fileset.rootdir>.</fileset.rootdir>
-    <fileset.excluded>.</fileset.excluded>
-</project>
+<MATLABProject xmlns="http://www.mathworks.com/MATLABProjectFile"/>

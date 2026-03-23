@@ -6,10 +6,13 @@ function data = getTeamStats(teamId, season, perMode, opts)
 
 arguments
     teamId (1,1) {mustBeNumeric, mustBeFinite, mustBePositive}
-    season (1,:) char {nba.validate.mustBeSeasonString}
-    perMode (1,:) char {mustBeMember(perMode,{"PerGame","Totals","Per36","Per100Possessions"})} = "PerGame"
+    season (1,1) string {nba.validate.mustBeSeasonString}
+    perMode (1,1) string {mustBeMember(perMode,["PerGame","Totals","Per36","Per100Possessions"])} = "PerGame"
     opts.RequestFcn (1,1) function_handle = @webread
 end
+
+season = char(season);
+perMode = char(perMode);
 
 params = struct(...
     "TeamID", teamId,...

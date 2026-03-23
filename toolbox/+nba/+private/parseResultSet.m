@@ -31,6 +31,10 @@ end
 headers = string(target.headers);
 rows = target.rowSet;
 
+if iscell(rows) && ~isempty(rows) && iscell(rows{1})
+    rows = vertcat(rows{:});
+end
+
 tableData = cell2table(rows, 'VariableNames', matlab.lang.makeValidName(headers));
 
 data = tableData;
