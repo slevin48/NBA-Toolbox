@@ -10,7 +10,7 @@ MATLAB utilities for pulling NBA statistics from stats.nba.com. The toolbox prov
    ```matlab
    addpath(genpath(fullfile(pwd, 'toolbox')))
    ```
-3. Open `doc/GettingStarted.mlx` for a guided tour.
+3. Open `doc/GettingStarted.m` as a live script for a guided tour.
 
 ## Usage
 ```matlab
@@ -20,9 +20,9 @@ teamStats   = nba.getTeamStats(1610612747, "2023-24", "Totals");
 Both functions accept an optional `RequestFcn` for injecting a custom HTTP client or mock during testing.
 
 ## Documentation and Examples
-- `doc/GettingStarted.mlx` – overview and quick steps
-- `examples/FetchPlayerStats.mlx` – download player data
-- `examples/FetchTeamStats.mlx` – download team data
+- `doc/GettingStarted.m` – overview and quick steps (open as Live Script in MATLAB)
+- `examples/FetchPlayerStats.m` – download player data
+- `examples/FetchTeamStats.m` – download team data
 
 ## Testing
 Run MATLAB unit tests from the repository root:

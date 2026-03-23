@@ -1,5 +1,0 @@
-% Example: Fetch player stats for LeBron James (PlayerID 2544)
-% Add the toolbox to the path before running:
-% addpath(genpath(fullfile(pwd, 'toolbox')))
-playerStats = nba.getPlayerStats(2544, "2023-24", "PerGame");
-disp(head(playerStats));

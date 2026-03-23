@@ -1,4 +1,0 @@
-% Example: Fetch team stats for the Lakers (TeamID 1610612747)
-% addpath(genpath(fullfile(pwd, 'toolbox')))
-teamStats = nba.getTeamStats(1610612747, "2023-24", "PerGame");
-disp(head(teamStats));

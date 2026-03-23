@@ -1,9 +1,0 @@
-This live script introduces the NBA Toolbox functions.
-
-1. Add the `toolbox` folder to your MATLAB path using `addpath(genpath('toolbox'))`.
-2. Call `nba.getPlayerStats` with a PlayerID and season:
-   `stats = nba.getPlayerStats(2544, "2023-24");`
-3. Fetch team metrics:
-   `teamStats = nba.getTeamStats(1610612747, "2023-24");`
-
-The examples in the `examples/` folder expand on these workflows.
