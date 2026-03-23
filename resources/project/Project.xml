@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Info Location="ProjectData">
+        <Info Name="NBA-Toolbox"/>
+    </Info>
+    <Files Location="Root">
+        <File Location=".gitattributes">
+            <Info/>
+        </File>
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+        <File Location="AGENTS.md">
+            <Info/>
+        </File>
+        <File Location="LICENSE">
+            <Info/>
+        </File>
+        <File Location="README.md">
+            <Info/>
+        </File>
+        <File Location="SECURITY.md">
+            <Info/>
+        </File>
+        <File Location="doc">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="GettingStarted.mlx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="examples">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="FetchPlayerStats.mlx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="FetchTeamStats.mlx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="functionSignatures.json">
+            <Info/>
+        </File>
+        <File Location="tests">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="tNbaStats.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="toolbox">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="+nba">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="getPlayerStats.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="getTeamStats.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+        </File>
+    </Files>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+    </Categories>
+    <ProjectPath Location="Root">
+        <Reference Location="0c56acfd-23f9-4ac8-b041-904802b27657">
+            <Info Ref="toolbox" Type="Relative"/>
+        </Reference>
+        <Reference Location="36660d56-9f1c-4165-aa6d-ea8937902311">
+            <Info Ref="tests" Type="Relative"/>
+        </Reference>
+        <Reference Location="a27037a2-812e-4f65-9eda-151fd0c07f4a">
+            <Info Ref="examples" Type="Relative"/>
+        </Reference>
+        <Reference Location="a2cb50fd-3eb1-434b-b8fb-f84f96d5fccd">
+            <Info Ref="doc" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+</project>
